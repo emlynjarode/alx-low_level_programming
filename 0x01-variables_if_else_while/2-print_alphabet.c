@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * mian- assigns a random number to n and prints if its negative or positive
- *
+ * main - entry point
+ * Description - prints aplhabet in lower case
  * Return: (success)
  *
  */
