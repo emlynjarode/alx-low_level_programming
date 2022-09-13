@@ -4,11 +4,14 @@
  * main - entry point
  * Description - prints _putchar followed by a new line
  *
- * return: always 0
+ * Return: always 0
  *
  */
 int main(void)
 {
+	/**
+	 * char p[] - variable array to be printed
+	 */
 	char p[] = "_putchar";
 	int a;
 
