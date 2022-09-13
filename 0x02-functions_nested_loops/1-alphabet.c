@@ -1,15 +1,4 @@
 #include "main.h"
-/**
- * main - entry point
- * Description - prints alphabet in lowecase
- *
- * Return: always 0
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 /**
  * print _alphabet - void
