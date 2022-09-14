@@ -1,5 +1,5 @@
-#ifndef main.h
-#define main.h  
+#ifndef MAIN_H
+#define MAIN_H  
 char _putchar(char);
 
 void print_alphabet(void);
@@ -24,4 +24,6 @@ int add(int, int);
 
 void print_to_98(int n);
 
-#endif
+void positive_or_negative(int i);
+
+#endif /* MAIN_H */
