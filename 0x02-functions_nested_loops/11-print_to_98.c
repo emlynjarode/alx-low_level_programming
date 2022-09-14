@@ -1,19 +1,46 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _islower - void return type
- * Description - checks for lowercase character
- * @c: the character to be checked
+ * print_to_98 - void return type
+ * Description - Prints all natural numbers from n to 98
+ * @n: The number to start printing from
  *
  * Return: always 0
  */
-int _islower(int c)
+void print_to_98(int n)
 {
-	if (c >= 97 && c <= 122)
+	if (n <= 98)
 	{
-		return (1);
+		for (; n <= 98; n++)
+		{
+			if (n == 98)
+			{
+				printf("%d", n);
+				printf("\n");
+				break;
+			}
+			else
+			{
+				printf("%d, ", n);
+			}
+		}
 	}
-
-	return (0);
+	else
+	{
+		for (; n >= 98; n--)
+		{
+			if (n == 98)
+			{
+				printf("%d", n);
+				printf("\n");
+				break;
+			}
+			else
+			{
+				printf("%d, ", n);
+			}
+		}
+	}
 }
 
