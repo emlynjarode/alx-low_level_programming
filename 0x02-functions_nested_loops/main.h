@@ -1,11 +1,5 @@
-#include <stdio.h>
-
-/**
- * _putchar - entry point
- * Description - function prototype prints a character to output
- *
- * Return: 
- */
+#ifndef main.h
+#define main.h  
 char _putchar(char);
 
 void print_alphabet(void);
@@ -29,3 +23,5 @@ void times_table(void);
 int add(int, int);
 
 void print_to_98(int n);
+
+#endif
