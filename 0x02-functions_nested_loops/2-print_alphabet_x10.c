@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print _alphabet_x10 - voiid
+ * print _alphabet_x10 - void
  * Description - prints alphabet in lowercase 10 times
  *
  * Return: always 0
