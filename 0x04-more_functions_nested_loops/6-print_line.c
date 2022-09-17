@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * print_line - void return type
@@ -17,7 +17,7 @@ void print_line(int n)
 	}
 	else
 	{
-		for (x = 0; x < n; x++)
+		for (x = 0; x <= n; x++)
 		{
 			_putchar(95);
 		}
