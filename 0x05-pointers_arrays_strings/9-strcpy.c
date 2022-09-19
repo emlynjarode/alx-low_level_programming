@@ -17,5 +17,5 @@ char *_strcpy(char *dest, char *src)
 		dest[cows] = src[cows];
 	}
 	dest[cows++] = '\0';
-	return (*dest);
+	return (dest);
 }
