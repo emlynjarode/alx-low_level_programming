@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - void return type
@@ -20,5 +21,5 @@ void print_array(int *a, int n)
 			printf(", ");
 		}
 	}
-	printf('\n');
+	printf("\n");
 }
