@@ -5,13 +5,15 @@
  * Description -  prints a string, followed by a new line, to stdout
  * @str: char string to be printed
  *
- * Return: void
+ * Return: success
  */
 void _puts(char *str)
 {
-	for (; *str != '\n'; str++)
+	int x;
+
+	for (x = 0; x <= str; x++)
 	{
-		_putchar(*str);
+		_putchar(str[x]);
 	}
 
 	_putchar('\n');
