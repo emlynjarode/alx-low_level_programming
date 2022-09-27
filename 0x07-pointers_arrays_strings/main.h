@@ -18,4 +18,6 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 
 char _putchar(char a);
+
+void set_string(char **s, char *to);
 #endif /* MAIN_H */
