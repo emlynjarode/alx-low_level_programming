@@ -9,27 +9,20 @@
  */
 char *_strchr(char *s, char c)
 {
-	/* variable a for index count*/
-	int a = 0;
-	/* variable z first occurrence*/
-	char *z;
+	int a = 0, b;
 
-	/* count characters in @s*/
-	while (s[a] != '\0')
+	while (s[a])
 	{
-		/*if index a is == char c*/
-		if (a == c)
-		{
-			z = &(s[a]);
-			break;
-		}
-		else
-		{
-			continue;
-		}
 		a++;
 	}
 
-	/* return pointer to first occurence */
-	return (z);
+	for (b = 0; b <= a; b++)
+	{
+		if (c == s[b])
+		{
+			s += b;
+			return (s);
+		}
+	}
+	return ('\0');
 }
